@@ -1,0 +1,8 @@
+npm init
+npm install
+npm install express
+npm install node
+npm install mongoose
+npm install jasonwebtoken
+npm install bcryptjs --save -force
+if vulnerabilities found use -force with the command
