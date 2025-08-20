@@ -13,9 +13,9 @@ connectDB();
 
 const app = express();
 
-// Apply CORS middleware first
+// Apply CORS middleware
 app.use(cors({
-    origin: 'http://localhost:5173', // Update this to your React app's URL
+    origin: 'http://localhost:5173', 
     methods: 'GET,POST,PUT,PATCH,DELETE',
     credentials: true
 }));
